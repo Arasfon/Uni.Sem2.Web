@@ -2,7 +2,7 @@
 charset = utf-8
 end_of_line = crlf
 trim_trailing_whitespace = true
-insert_final_newline = false
+insert_final_newline = true
 indent_style = space
 indent_size = 4
 
@@ -88,7 +88,7 @@ resharper_keep_existing_invocation_parens_arrangement = false
 resharper_keep_existing_primary_constructor_declaration_parens_arrangement = false
 resharper_keep_existing_switch_expression_arrangement = false
 resharper_local_function_body = expression_body
-resharper_max_array_initializer_elements_on_line = 5
+resharper_max_array_initializer_elements_on_line = 10
 resharper_max_formal_parameters_on_line = 5
 resharper_max_initializer_elements_on_line = 1
 resharper_max_invocation_arguments_on_line = 5
@@ -109,7 +109,6 @@ resharper_resx_wrap_lines = true
 resharper_show_autodetect_configure_formatting_tip = false
 resharper_space_before_self_closing = false
 resharper_use_indent_from_vs = false
-resharper_wrap_array_initializer_style = chop_if_long
 resharper_wrap_before_primary_constructor_declaration_rpar = true
 resharper_wrap_chained_method_calls = chop_if_long
 resharper_wrap_text = false
