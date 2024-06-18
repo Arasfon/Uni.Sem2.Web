@@ -7,6 +7,7 @@ RUN apt-get update -yq
 RUN apt-get install curl gnupg -yq
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
 RUN apt-get install -y nodejs
+RUN rm -rf /var/lib/apt/lists/*
 
 # Restore
 COPY *.sln .
