@@ -39,6 +39,7 @@ VOLUME /home/app/.aspnet/DataProtection-Keys
 
 USER $APP_UID
 
-EXPOSE 8080
+EXPOSE 8080/tcp
+EXPOSE 8080/udp
 
 ENTRYPOINT [ "dotnet", "./Meowy.dll" ]
