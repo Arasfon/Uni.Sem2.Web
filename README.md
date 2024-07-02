@@ -1,4 +1,4 @@
-# Meowy (MTUCI.Web)
+# Meowy (Uni.Web)
 
 **Meowy** is a website for the fictional cat café Meowy. It is also coursework for two university courses ("Web programming" and "Databases").
 
