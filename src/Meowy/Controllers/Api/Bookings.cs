@@ -26,7 +26,7 @@ public class Bookings(
         ValidationResult validationResult = await validator.ValidateAsync(bookingFormModel);
 
         if (!validationResult.IsValid)
-            return UnprocessableEntity(validationResult.Errors);
+            return UnprocessableEntity(new ValidationProblemDetails());
 
         Booking booking = (Booking)bookingFormModel;
 
