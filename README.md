@@ -26,11 +26,9 @@ Website is available on <https://meowy.arasfon.ru>
 - Git
 - Azure Pipelines
 - Docker
-
 - ASP.NET Core 8
 - PostgreSQL 16
 - EntityFramework Core 8
-
 - Node.js
 - TypeScript
 - Rollup
@@ -43,7 +41,6 @@ Libraries:
 
 - [FluentValidation](https://github.com/FluentValidation/FluentValidation)
 - [WebMarkupMin](https://github.com/Taritsyn/WebMarkupMin)
-
 - [tui.editor](https://github.com/nhn/tui.editor)
 - [flatpickr](https://github.com/flatpickr/flatpickr)
 - [Glide.js](https://github.com/glidejs/glide)
